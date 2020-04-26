@@ -165,7 +165,7 @@ ComplexVariable& ComplexVariable::operator ^ (int pow)
     return *this;
 }
 
-double solver::solve(ComplexVariable& cv)
+std::complex<double> solver::solve(const ComplexVariable& cv)
 {
     return 0;
 }

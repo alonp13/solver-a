@@ -100,7 +100,7 @@ RealVariable& RealVariable::operator ^ (int pow)
     return *this;
 }
 
-double solver::solve(RealVariable& rv)
+double solver::solve(const RealVariable& rv)
 {
     return 0;
 }

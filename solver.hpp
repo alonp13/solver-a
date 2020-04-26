@@ -83,6 +83,6 @@ namespace solver
         ComplexVariable& operator ^ (int pow);
     };
 
-    double solve(RealVariable& rv);
-    double solve(ComplexVariable& cv);
+    double solve(const RealVariable& rv);
+    std::complex<double> solve(const ComplexVariable& cv);
 };
